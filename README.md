@@ -54,7 +54,7 @@ sqf = Quadrupole(Ks1=0.36, L=0.2)
 # Note that tilt1 specifies a tilt to only the Kn1 multipole.
 
 # Create a FODO beamline
-bl = Beamline([qf, sf, d1, Bn1, d2, qd, sd, d3, b2, d4], Brho_ref=60.0)
+bl = Beamline([qf, sf, d1, b1, d2, qd, sd, d3, b2, d4], Brho_ref=60.0)
 
 # Now we can get the unnormalized field strengths:
 qf.Bn1
